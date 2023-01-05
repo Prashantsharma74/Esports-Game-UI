@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-section {
+    height: 100vh;
+    background-image: url("https://rare-gallery.com/mocahbig/415606-monochrome-anime-anime-girls-selective-coloring.jpg");
+    background-size: cover;
+}
+
+.main-section nav {
+    padding: 20px 60px;
+    color: rgb(168, 153, 153);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.main-section nav .first-ul {
+    display: flex;
+    font-size: 13px;
+    margin-right: 60px;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.main-section nav .second-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.main-section .first-ul :hover {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: auto;
+}
+
+.main-section .second-ul i:hover {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: auto;
+}
+
+/* main section  */
+
+.div-section {
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+    height: 70vh;
+    /* background-color: orange; */
+    width: 400px;
+}
+
+.div-section .game {
+    height: 30px;
+    width: 150px;
+    background-color: #ffccff;
+    border: none;
+    border-radius: 18px;
+}
+
+.div-section h1 {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 35px;
+    margin-top: 5px;
+    color: white;
+    background: #ff0000;
+    background: -webkit-linear-gradient(to right, #ff0000, #9932cc);
+    background: linear-gradient(to right, #ff0000, #9932cc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.div-section .para-section {
+    margin-top: 15px;
+    font-size: 12px;
+    color: lightgrey;
+    border-left: 1px solid red;
+}
+
+.div-section .inner-span {
+    padding-right: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-section .inner-span button {
+    height: 30px;
+    width: 130px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    background: #121FCF;
+    background: radial-gradient(circle farthest-side at top right, #121FCF 31%, #CF1512 100%);
+    border-radius: 10px;
+}
+
+.div-section .span-inner {
+    padding-right: 40px;
+    width: 220px;
+    margin-left:30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.div-section .span-inner i{
+    color: #149F49;
+}
+
+.div-section .span-inner span {
+    font-size: 10px;
+    margin-right: 40px;
+}
+.div-section .span-inner span p:first-child{
+    color: #149F49;
+}
+
+
+/* Last Section  */
+
+.last-div{
+    display: flex;
+    padding: 10px 100px;
+    color:  #149F49;
+    font-weight: 200;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Responsive */
+
+@media (max-width:768px){
+
+    
+}
+
+
